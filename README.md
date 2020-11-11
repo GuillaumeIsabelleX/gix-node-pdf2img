@@ -1,3 +1,9 @@
+# @STCStatus: NOT WORKING
+
+
+----
+
+
 # node-pdf2img
 
 A nodejs module for converting pdf into image file
@@ -9,7 +15,7 @@ Note: Windows users, please be sure GraphicsMagick and Ghostscript are installed
 
 ## Installation
 ```
-  $ [sudo] npm install pdf2img
+  $ [sudo] npm install gix-pdf2img
 ```
 
 ## Usage
@@ -17,7 +23,7 @@ Note: Windows users, please be sure GraphicsMagick and Ghostscript are installed
 ```javascript
 var fs      = require('fs');
 var path    = require('path');
-var pdf2img = require('pdf2img');
+var pdf2img = require('gix-pdf2img');
 
 var input   = __dirname + '/test.pdf';
 
